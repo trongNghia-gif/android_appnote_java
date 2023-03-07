@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ativities.note"
+    android:orientation="vertical"
+
+
+    >
+    <TextView
+        android:id="@+id/txt_note_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ten"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:background="#807F7F"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/txt_note_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="email"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:background="#807F7F"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/txtMyNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:text="My Note"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+
+        />
+    <LinearLayout
+        android:id="@+id/layOutSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:background="@drawable/background_search"
+        >
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_search"
+
+            />
+        <EditText
+            android:id="@+id/inputSearch"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginStart="12dp"
+            android:background="@null"
+            android:hint="Search Notes"
+            android:imeOptions="actionDone"
+            android:importantForAutofill="no"
+            android:includeFontPadding="false"
+            android:inputType="text"
+            android:textColor="@color/white"
+            android:textSize="13dp"
+            />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/noteRecylerView"
+        android:layout_width="match_parent"
+        android:layout_height="540dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="2dp"
+        android:clipToPadding="false"
+        android:paddingStart="0dp"
+        android:paddingEnd="12dp"
+        android:paddingBottom="12dp"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom">
+
+
+        <LinearLayout
+            android:id="@+id/layOutQuyckAction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#807F7F"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="15dp"
+            >
+
+            <ImageView
+                android:id="@+id/imgAddNote"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ic_add"
+                />
+            <ImageView
+                android:id="@+id/imgAddImage"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:layout_marginStart="12dp"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ic_image"
+                />
+            <ImageView
+                android:id="@+id/imgAddLink"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:layout_marginStart="12dp"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ic_link"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

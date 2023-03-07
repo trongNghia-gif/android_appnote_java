@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ativities.MainDangNhap"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#71A5E4"
+    >
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dang Nhap"
+        android:textSize="40sp"
+        android:textColor="#860CDD"
+        android:fontFamily="sans-serif-condensed"
+        tools:layout_editor_absoluteX="173dp"
+        tools:layout_editor_absoluteY="37dp"  />
+
+    <EditText
+        android:id="@+id/edtgmaildn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="Email"
+        android:textSize="13dp"
+        android:inputType="textPersonName"
+        android:text="nguyentrongnghia@gmail.com"
+        android:background="@drawable/background_edittext_dk"
+        android:paddingStart="10dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="84dp" />
+
+    <EditText
+        android:id="@+id/edtpassdn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:textSize="13dp"
+        android:text="123456"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:background="@drawable/background_edittext_dk"
+        android:paddingStart="10dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginTop="25dp"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="156dp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="10dp"
+            android:padding="7dp"
+            android:src="@drawable/icon_fb"
+            android:background="@drawable/background_btn_social"
+            />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="10dp"
+            android:padding="7dp"
+            android:src="@drawable/icon_gg"
+            android:background="@drawable/background_btn_social"
+            />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="10dp"
+            android:padding="7dp"
+            android:src="@drawable/icon_twitter"
+            android:background="@drawable/background_btn_social"
+            />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btnDangNhap"
+        android:layout_width="150dp"
+        android:layout_height="42dp"
+        android:text="Dang Nhap"
+        android:textSize="13dp"
+        android:background="@drawable/background_btn_dk"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="288dp"
+        android:layout_marginTop="25dp" />
+    <Button
+        android:id="@+id/btnDangKy"
+        android:layout_width="150dp"
+        android:layout_height="42dp"
+        android:text="Dang Ky"
+        android:textSize="13dp"
+        android:background="@drawable/background_btn_dk"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="288dp"
+        android:layout_marginTop="25dp" />
+
+</LinearLayout>

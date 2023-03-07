@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "621864563573",
+    "project_id": "dangky-4570d",
+    "storage_bucket": "dangky-4570d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:621864563573:android:d161bd6467ca96cbb2193c",
+        "android_client_info": {
+          "package_name": "com.example.authencation_dangky"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "621864563573-o2p440ic473h67uu4m40br8jdd3r8lp3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKfNgF8zqHIFdTGkwiyIdPz1bY6luFAzo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "621864563573-o2p440ic473h67uu4m40br8jdd3r8lp3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

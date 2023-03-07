@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">authencation_dangky</string>
+    <string name="note_title">note_title</string>
+    <string name="note_subtitle">note_subtitle</string>
+    <string name="type_note_here">type_note_here</string>
+    <string name="note_here">Note Here</string>
+</resources>
